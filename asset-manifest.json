@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.46961403.css",
-    "main.js": "/portfolio/static/js/main.cdff2fe8.js",
+    "main.js": "/portfolio/static/js/main.94f6e213.js",
     "static/media/kathanNews.png": "/portfolio/static/media/kathanNews.2d5b715669cee7b70304.png",
+    "static/media/LearnLang.png": "/portfolio/static/media/LearnLang.52d8b6339947521fae83.png",
     "static/media/snapBasket.png": "/portfolio/static/media/snapBasket.3c32acd0c123c80c4aba.png",
-    "static/media/ZeeshanAhmadFullStackWebDeveloper-ROGp.pdf": "/portfolio/static/media/ZeeshanAhmadFullStackWebDeveloper-ROGp.5245f3dd0cd460034264.pdf",
-    "static/media/gadgetGalaxy.png": "/portfolio/static/media/gadgetGalaxy.7b531285343060e61be0.png",
+    "static/media/ZeeshanAhmad-FullStackWebDeveloper-9w3J.pdf": "/portfolio/static/media/ZeeshanAhmad-FullStackWebDeveloper-9w3J.6fdd365a67415dd14f7e.pdf",
     "static/media/Hello.gif": "/portfolio/static/media/Hello.d93720933c608f6178fb.gif",
     "static/media/zeeshanahmad.png": "/portfolio/static/media/zeeshanahmad.09da6168310c459d89c6.png",
     "static/media/illustration.svg": "/portfolio/static/media/illustration.cf4b7a67f23b684549c4f797c62b527a.svg",
@@ -28,10 +28,10 @@
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/portfolio/static/media/js-icon.2d25723e91c8a9e057ae447ae6a73ecb.svg",
     "main.46961403.css.map": "/portfolio/static/css/main.46961403.css.map",
-    "main.cdff2fe8.js.map": "/portfolio/static/js/main.cdff2fe8.js.map"
+    "main.94f6e213.js.map": "/portfolio/static/js/main.94f6e213.js.map"
   },
   "entrypoints": [
     "static/css/main.46961403.css",
-    "static/js/main.cdff2fe8.js"
+    "static/js/main.94f6e213.js"
   ]
 }
