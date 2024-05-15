@@ -2,7 +2,7 @@ import { Container } from "./styles";
 import { BrowserRouter as Router } from "react-router-dom";
 import { NavHashLink, HashLink } from "react-router-hash-link";
 import { useState } from "react";
-import Resume from "../../assets/ZeeshanAhmadFullStackWebDeveloper-ROGp.pdf";
+import Resume from "../../assets/ZeeshanAhmad-FullStackWebDeveloper-9w3J.pdf";
 export function Header() {
   const [isActive, setActive] = useState(false);
   function toggleTheme() {
@@ -34,15 +34,35 @@ export function Header() {
           <NavHashLink smooth to="#about" onClick={closeMenu}>
             About me
           </NavHashLink>
+          <NavHashLink smooth to="#skills" onClick={closeMenu}>
+            Skills
+          </NavHashLink>
+          <NavHashLink smooth to="#stats" onClick={closeMenu}>
+            GIT
+          </NavHashLink>
           <NavHashLink smooth to="#project" onClick={closeMenu}>
             Project
           </NavHashLink>
           <NavHashLink smooth to="#contact" onClick={closeMenu}>
             Contact
           </NavHashLink>
-          <a href={Resume} download className="button">
-            Resume
-          </a>
+          <button
+            onClick={() =>
+              window.open(
+                "https://drive.google.com/file/d/1hYjAseXQWjYllKYrfIKi9IKjvaV_wgYm/view?usp=sharing"
+              )
+            }
+          >
+            <a
+              href={Resume}
+              download
+              rel="noreferrer"
+              target="_blank"
+              className="button"
+            >
+              Resume
+            </a>
+          </button>
         </nav>
         <div
           aria-expanded={isActive ? "true" : "false"}

@@ -7,21 +7,22 @@ export const Container = styled.section`
   gap: 2rem;
 
   .hard-skills{
-    margin-top: 1.6rem;
+    width:100vw;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 1.8rem;
   }
-  .hability{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .hability {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap:1.8rem;
+}
 
-    img{
-      width: 3.4rem;
-    }
-  }
+.hability img {
+    width: 10rem;
+}
+
 
   h2{
     display: inline-block;
@@ -78,6 +79,8 @@ export const Container = styled.section`
     text-align: center;
     
     .hard-skills{
+      display: grid;
+    grid-template-columns: repeat(2, 1fr);
       justify-content: center;
     }
     .about-image{
@@ -96,4 +99,4 @@ export const Container = styled.section`
     
   }
 
-`
+`;

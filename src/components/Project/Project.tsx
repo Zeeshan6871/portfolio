@@ -4,7 +4,7 @@ import githubIcon from "../../assets/github.svg";
 import externalLink from "../../assets/external-link.svg";
 import kathanNews from "../../assets/kathanNews.png";
 import snapBasket from "../../assets/snapBasket.png";
-import gadgetGalaxy from "../../assets/gadgetGalaxy.png";
+import LearnLang from "../../assets/LearnLang.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export function Project() {
@@ -12,7 +12,7 @@ export function Project() {
     <Container id="project">
       <h2>My Projects</h2>
       <div className="projects">
-        <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation animateIn="fadeInLeft">
           <div className="project">
             <header>
               <svg
@@ -74,7 +74,7 @@ export function Project() {
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation animateIn="fadeInUp">
           <div className="project">
             <header>
               <svg
@@ -137,7 +137,7 @@ export function Project() {
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation animateIn="fadeInRight">
           <div className="project">
             <header>
               <svg
@@ -156,14 +156,14 @@ export function Project() {
               </svg>
               <div className="project-links">
                 <a
-                  href="https://github.com/Anujkumar960/Gadget-Galaxy"
+                  href="https://github.com/payalrawal123/Subansiri-Loop-034?tab=readme-ov-file"
                   target="\_blank"
                   rel="noreferrer"
                 >
                   <img src={githubIcon} alt="Visit site" />
                 </a>
                 <a
-                  href="https://gadget-galaxy-project.netlify.app/"
+                  href="https://subansiri-loop-034.vercel.app/"
                   target="\_blank"
                   rel="noreferrer"
                 >
@@ -172,28 +172,24 @@ export function Project() {
               </div>
             </header>
             <div className="body">
-              <img
-                style={{ width: "100%" }}
-                src={gadgetGalaxy}
-                alt="gadgetGalaxy"
-              />
-              <h3>
-                Gadget Galaxy: Your Premier Destination for Electronic Gadgets
-              </h3>
+              <img style={{ width: "100%" }} src={LearnLang} alt="LearnLang" />
+              <h3>Learn Lang: Learnlang is a learning website</h3>
               <p>
-                Our user-friendly interface allows you to explore a
-                comprehensive collection of electronic gadgets from top brands
-                with ease. Whether you're searching for the latest smartphones,
-                laptops, or smart home devices, Gadget Galaxy has you covered.
-                Discover, compare, and purchase your favorite gadgets
-                effortlessly, all in one place.
+                LearnLang a dynamic learning platform designed for students and
+                instructors alike. Features robust user and admin
+                registration/authentication functionalities. Enables CRUD
+                operations for both students and instructors. Incorporates a
+                chatbot for enhanced user interaction. Includes a convenient
+                scroll-to-top feature for seamless navigation. Allows students
+                to purchase courses and submit reviews effortlessly
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Bootstrap</li>
+                <li> React</li>
+                <li>Tailwind</li>
+                <li>MongoDB</li>
+                <li>Node.js</li>
               </ul>
             </footer>
           </div>

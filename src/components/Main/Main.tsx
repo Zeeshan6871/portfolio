@@ -15,6 +15,7 @@ import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import Github from "../Git/git";
 
 export function Main() {
   return (
@@ -246,6 +247,7 @@ export function Main() {
       />
       <Hero></Hero>
       <About></About>
+      <Github />
       <Project></Project>
       <Contact></Contact>
     </Container>

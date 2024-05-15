@@ -14,45 +14,63 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 export function About() {
   return (
-    <Container id="about">
-      <div className="about-text">
-        <ScrollAnimation animateIn="fadeInLeft">
-          <h2>About me</h2>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
-          <p>
-            Passionate about web development and deeply immersed in the world of
-            technology, I bring a wealth of experience and expertise to the
-            table. With a comprehensive skill set encompassing JavaScript,
-            TypeScript, React, Node.js, MongoDB, MySQL, HTML, and CSS, I am
-            well-equipped to tackle a wide range of challenges in the digital
-            landscape.
-          </p>
-        </ScrollAnimation>
-        <ScrollAnimation
-          animateIn="fadeInLeft"
-          delay={0.2 * 1000}
-          style={{ marginTop: "2rem", marginBottom: "2rem" }}
+    <>
+      <Container id="about">
+        <div className="about-text">
+          <ScrollAnimation animateIn="fadeInLeft">
+            <h2>About me</h2>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
+            <p>
+              Passionate about web development and deeply immersed in the world
+              of technology, I bring a wealth of experience and expertise to the
+              table. With a comprehensive skill set encompassing JavaScript,
+              TypeScript, React, Node.js, MongoDB, MySQL, HTML, and CSS, I am
+              well-equipped to tackle a wide range of challenges in the digital
+              landscape.
+            </p>
+          </ScrollAnimation>
+          <ScrollAnimation
+            animateIn="fadeInLeft"
+            delay={0.2 * 1000}
+            style={{ marginTop: "2rem", marginBottom: "2rem" }}
+          >
+            <p>
+              My journey in the tech industry began with a curiosity for coding
+              and a thirst for knowledge. Over the years, I have honed my skills
+              through hands-on experience and continuous learning, constantly
+              pushing the boundaries of what is possible in web development.
+            </p>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
+            <p>
+              In addition to technical proficiency, I bring a collaborative
+              mindset and a passion for innovation to every team I work with. I
+              thrive in environments that encourage creativity, collaboration,
+              and out-of-the-box thinking, where I can contribute my skills and
+              ideas to drive positive change and innovation.
+            </p>
+          </ScrollAnimation>
+        </div>
+        <div className="about-image">
+          <ScrollAnimation animateIn="fadeInRight" delay={0.2 * 1000}>
+            <img src={zeeshanahmad} alt="Zeeshan Ahamd" />
+          </ScrollAnimation>
+        </div>
+      </Container>
+      <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
+        <h1
+          style={{
+            textAlign: "center",
+            marginTop: "10rem",
+            color: "var(--green)",
+          }}
+          id="skills"
         >
-          <p>
-            My journey in the tech industry began with a curiosity for coding
-            and a thirst for knowledge. Over the years, I have honed my skills
-            through hands-on experience and continuous learning, constantly
-            pushing the boundaries of what is possible in web development.
-          </p>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
-          <p>
-            In addition to technical proficiency, I bring a collaborative
-            mindset and a passion for innovation to every team I work with. I
-            thrive in environments that encourage creativity, collaboration, and
-            out-of-the-box thinking, where I can contribute my skills and ideas
-            to drive positive change and innovation.
-          </p>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
-          <h3>Here are my main skills:</h3>
-        </ScrollAnimation>
+          Here are my main skills:
+        </h1>
+      </ScrollAnimation>
+      <Container style={{ marginTop: "20px" }}>
         <div className="hard-skills">
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
@@ -105,12 +123,7 @@ export function About() {
             </ScrollAnimation>
           </div>
         </div>
-      </div>
-      <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={0.2 * 1000}>
-          <img src={zeeshanahmad} alt="Zeeshan Ahamd" />
-        </ScrollAnimation>
-      </div>
-    </Container>
+      </Container>
+    </>
   );
 }
