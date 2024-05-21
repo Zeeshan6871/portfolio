@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.46961403.css",
-    "main.js": "/portfolio/static/js/main.fdf8ad92.js",
+    "main.js": "/portfolio/static/js/main.66d2ba1f.js",
     "static/media/kathanNews.png": "/portfolio/static/media/kathanNews.2d5b715669cee7b70304.png",
     "static/media/LearnLang.png": "/portfolio/static/media/LearnLang.52d8b6339947521fae83.png",
     "static/media/snapBasket.png": "/portfolio/static/media/snapBasket.3c32acd0c123c80c4aba.png",
@@ -28,10 +28,10 @@
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/portfolio/static/media/js-icon.2d25723e91c8a9e057ae447ae6a73ecb.svg",
     "main.46961403.css.map": "/portfolio/static/css/main.46961403.css.map",
-    "main.fdf8ad92.js.map": "/portfolio/static/js/main.fdf8ad92.js.map"
+    "main.66d2ba1f.js.map": "/portfolio/static/js/main.66d2ba1f.js.map"
   },
   "entrypoints": [
     "static/css/main.46961403.css",
-    "static/js/main.fdf8ad92.js"
+    "static/js/main.66d2ba1f.js"
   ]
 }
